@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container__carousel {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.hero__text {
+  text-align: justify;
+}
+
+ul li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  background-color: #dfc8a5;
+  color: #8c140b;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #8c140b;
+  color: #dfc8a5;
+  border: none;
+}
+
+.footer {
+  margin-top: 3.5rem;
+  text-align: center;
+  background-color: #dfc8a5;
+}
+
+.footer__copyright {
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+
+ul li {
+  list-style-type: none;
+  font-family: Raleway;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c140b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 0;
+}
+
+/* ESTILOS PARA SECCION CONTACTO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form__contact {
+  margin-top: 3rem;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form.row {
+  padding-top: 0.5rem;
+}
+
+.form__contact label,
+.form__contact input,
+.form__contact textarea {
+  display: inline;
+  width: 100%;
+}
+
+.form__contact label {
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.form__contact input:not([type=submit]),
+.form__contact textarea {
+  border: none;
+  border-bottom: 2px solid #8c140b;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input[type=submit] {
+  border: none;
+  border-radius: 4rem;
+  background-color: #dfc8a5;
+  color: #8c140b;
+  font-size: 1.5rem;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: large;
+}
+
+.about__text {
+  padding-top: 4rem;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
