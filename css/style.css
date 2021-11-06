@@ -154,7 +154,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10vmin;
   overflow: hidden;
 }
 .container .card {
@@ -162,6 +161,7 @@ p {
   transition: all 1s ease-in-out;
   height: 45vmin;
   position: relative;
+  border: none;
 }
 .container .card .card__head {
   color: black;
@@ -189,7 +189,7 @@ p {
   top: calc(100% - 2em);
   color: white;
   background: #8c140b;
-  font-size: 1em;
+  font-size: 1.2rem;
   transform: rotate(0deg) skew(-5deg);
 }
 .container .card img {
@@ -201,6 +201,10 @@ p {
 }
 .container .card:not(:nth-child(5)) {
   margin-right: 1em;
+}
+
+p {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
