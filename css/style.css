@@ -40,6 +40,11 @@ h1 {
   text-align: justify;
 }
 
+.container__intro {
+  max-width: 80%;
+  margin: auto;
+}
+
 ul li a {
   white-space: nowrap;
   overflow: hidden;
