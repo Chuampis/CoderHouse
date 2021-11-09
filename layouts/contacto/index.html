@@ -29,7 +29,7 @@
 
     <body>
         <!-- HEADER -->
-        <header>
+        <header id="inicio">
             <!-- MENU NAVEGACION -->
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -117,25 +117,32 @@
                 Contactenos
             </h1>
             <div class="container">
-                <p class="text-center
-                ">Envianos tu consulta, a la brevedad te contestaremos.
+                <p class="text-center">
+                    Envianos tu consulta, a la brevedad te contestaremos.
                     <br>
                     Tambien podes escribirnos por nuestras redes sociales (whatsapp, instagram o facebook)</p>
             </div>
             <!-- Formulario de contacto -->
             <form action="https://formsubmit.co/chuampis@gmail.com" method="POST" class="form__contact">
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="nombre" id="nombre" required>
                 <label for="apellido">Apellido</label>
                 <input type="text" name="apellido" id="apellido">
                 <label for="mail">Mail</label>
-                <input type="text" name="mail" id="mail">
+                <input type="text" name="mail" id="mail" required>
                 <label for="telefono">Telefono</label>
-                <input type="text" name="telefono" id="telefono">
+                <input type="text" name="telefono" id="telefono" required>
                 <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="mensaje"></textarea>
+                <textarea name="mensaje" id="mensaje" required></textarea>
                 <input type="submit" value="Enviar">
             </form>
+            <div class="container mt-5">
+                <a href="#inicio" class="internalLink">
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true">
+                    </i>
+                </a>
+            </div>
+
         </main>
         <!-- FIN MAIN -->
 
@@ -170,7 +177,6 @@
                             <li>Pagá en efectivo o tarjeta!</li>
                             <li>L a V: 9 a 12:30 y 16 a 19 / Sab: 9 a 13</li>
                         </ul>
-
                     </div>
                 </div>
                 <hr>

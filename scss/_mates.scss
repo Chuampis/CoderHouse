@@ -1,0 +1,9 @@
+.galeria__imagen{
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(100%);
+    
+&:hover {
+    filter: grayscale(0);
+
+}
+}
