@@ -1,12 +1,37 @@
-.errorImage{
-    padding-top: 3rem;
-    max-width: 100%;
-}
-.error404{
+// .errorImage{
+//     padding-top: 3rem;
+//     max-width: 100%;
+// }
+// .error404{
+//     height: 100vh;
+//     display: flex;
+//     // flex-direction: column;
+//     // justify-content: center;
+//     // align-items: center;`
+//     align-items: center;
+// }
+
+.page404 {
     height: 100vh;
     display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;`
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
+    color: $rosa-principal;
+  }
+  .page404 a {
+    text-decoration: none;
+    color: $color-violeta;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    &:hover {
+      transform: scale(1.2);
+      text-decoration: underline;
+    }
+  }
+  .imgError {
+    padding-top: 2rem;
+    max-width: 100%;
+  }
