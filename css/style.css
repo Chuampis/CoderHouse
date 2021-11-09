@@ -238,4 +238,12 @@ p {
   filter: grayscale(0);
 }
 
+.errorImage {
+  margin: auto;
+}
+
+.error404 {
+  height: 100vh;
+}
+
 /*# sourceMappingURL=style.css.map */
