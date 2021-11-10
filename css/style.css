@@ -93,6 +93,10 @@ ul li a {
   justify-content: center;
   color: white;
   font-weight: 500;
+  text-decoration: none;
+}
+.footer__copyright a {
+  color: white;
 }
 
 ul li {
@@ -240,6 +244,14 @@ p {
 
 .error404 {
   height: 100vh;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
