@@ -170,7 +170,7 @@ p {
 
 .about__text {
   padding-top: 4rem;
-  text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
