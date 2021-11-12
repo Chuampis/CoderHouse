@@ -10,4 +10,4 @@
 <p>
   Sitio web creado con SASS y BOOTSTRAP. Web para negocio local de compostura de calzado, venta de regionales, y más.
   </p>
-  <img src="https://github.com/Chuampis/coderhouse/blob/master/screenshoot.png">
+  <img src="https://github.com/Chuampis/coderhouse/blob/master/screenshot.png">
