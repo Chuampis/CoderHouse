@@ -40,6 +40,13 @@ h1 {
   transform: scale(1.3);
 }
 
+/* Estilos para pagina de Inicio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container__carousel {
   max-width: 80%;
   margin: auto;
@@ -119,7 +126,7 @@ hr {
   margin-top: 0;
 }
 
-/* ESTILOS PARA SECCION CONTACTO */
+/* Estilos para pagina de Contacto */
 * {
   margin: 0;
   padding: 0;
@@ -172,9 +179,23 @@ p {
   font-size: large;
 }
 
+/* Estilos para pagina de About */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .about__text {
   padding-top: 4rem;
   font-family: "Raleway", sans-serif;
+}
+
+/* Estilos para pagina de Productos - Calzado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -234,12 +255,33 @@ p {
   font-weight: 600;
 }
 
+/* Estilos para pagina de Accesorios */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para pagina de Productos - Mates */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .galeria__imagen {
   transition: all 0.5s ease-in-out;
   filter: grayscale(100%);
 }
 .galeria__imagen:hover {
   filter: grayscale(0);
+}
+
+/* Estilos para pagina de Error 404 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .error404 {
@@ -317,6 +359,13 @@ h4 {
 .btn__cuchillos:hover:before, .btn__cuchillos:hover:after {
   width: 100%;
   height: 100%;
+}
+
+/* Estilos para pagina de Servicios - Compostura */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=style.css.map */
