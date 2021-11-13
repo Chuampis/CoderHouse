@@ -87,15 +87,15 @@ ul li a {
   background-color: #dfc8a5;
 }
 
-.footer__copyright {
+.copyright {
   margin-top: 0rem;
   display: flex;
   justify-content: center;
   color: white;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
 }
-.footer__copyright a {
+.copyright a {
   color: white;
 }
 
@@ -227,7 +227,7 @@ p {
   filter: grayscale(100%);
 }
 .container .card:not(:nth-child(5)) {
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 p {
@@ -252,6 +252,71 @@ h3 {
 
 h4 {
   text-align: center;
+}
+
+/* Estilo para Productos - Cuchillos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #dfc8a5;
+  color: #8c140b;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #dfc8a5;
+  border-color: #8c140b;
+}
+
+.btn__cuchillos {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 1.2rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+.btn__cuchillos:after, .btn__cuchillos:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.btn__cuchillos:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid #dfc8a5;
+  border-left: 5px solid #8c140b;
+}
+.btn__cuchillos:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid #8c140b;
+  border-right: 5px solid #dfc8a5;
+}
+.btn__cuchillos:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.btn__cuchillos:hover:before, .btn__cuchillos:hover:after {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
