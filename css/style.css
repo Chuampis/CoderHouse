@@ -368,4 +368,19 @@ h4 {
   box-sizing: border-box;
 }
 
+/* Estilos para pagina de Tienda */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galeria__imagen {
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+.galeria__imagen:hover {
+  filter: grayscale(0);
+}
+
 /*# sourceMappingURL=style.css.map */
