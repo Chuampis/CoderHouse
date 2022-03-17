@@ -36,4 +36,13 @@ function agregarProductos(array,div){
 
 agregarProductos()
 
+const productosEncargados =[];
+let cantidad = 4;
 
+do{
+    let entrada = prompt('Que producto desea comprar?');
+    productosEncargados.push(entrada.toUpperCase());
+    console.log(productosEncargados.length);
+} while(productosEncargados.length != cantidad)
+const nuevaLista = productosEncargados.concat();
+    alert(nuevaLista.join('\n'));
